@@ -215,14 +215,14 @@
 
         <section>
             <div class="tab-controller">
-                <div class="tab-pills"><a>What I do Best</a>
-                    <div class="blue-line"></div>
+                <div class="tab-pills" id="best"><a>What I do Best</a>
+                    <div class="blue-line-active" id="bestline"></div>
                 </div>
-                <div class="tab-pills"><a>Personal Interests</a>
-                    <div class="blue-line"></div>
+                <div class="tab-pills graytext" id="interest"><a>Personal Interests</a>
+                    <div class="blue-line" id="interestline"></div>
                 </div>
             </div>
-            <div class="grid-view-interests">
+            <div class="grid-view-interests" id="bestgrid">
                 <div class="square-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -290,7 +290,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid-view-interests d-none">
+            <div class="grid-view-interests d-none" id="interestgrid">
                 <div class="square-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">

@@ -642,3 +642,7 @@ hr.line {
 .empty-div {
   height: 8vh;
 }
+
+.graytext {
+  color: rgba(0, 0, 0, 0.6);
+}
