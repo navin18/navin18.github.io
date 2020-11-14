@@ -646,3 +646,35 @@ hr.line {
 .graytext {
   color: rgba(0, 0, 0, 0.6);
 }
+
+.minus-mobile {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+  .minus-mobile {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.sorry {
+  font-family: PoppinsRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.sorry > span {
+  color: #3e68ff;
+}
