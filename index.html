@@ -1,121 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="header">
-        <div class="logoform">N A V I N <span>.</span></div>
-        <div class="nav-btns"><a>About</a><div class="blue-line"></div></div>
-        <div class="nav-btns"><a>Journey</a><div class="blue-line"></div></div>
-        <div class="nav-btns"><a>Experience</a><div class="blue-line"></div></div>
-        <div class="nav-btns"><a>Side Projects</a><div class="blue-line"></div></div>
-        <div class="nav-btns"> <a>Testimonials</a><div class="blue-line"></div></div>
-        <div class="nav-btns"><a>Connect</a><div class="blue-line"></div></div>
-    </div>
-    <div class="sidepane">
-        <div class="sidebar"></div>
-        <a><img src="assets/twitter.svg" /></a>
-        <a><img src="assets/linkedin.svg" /></a>
-    </div>
-    <section class="landing">
-        <div class="landingbg"><div class="bluepill"></div></div>
-        <div class="landing-content landing-text">
-            <p class="landing-headline">You know what <br><span>ticks</span> me?</p>
-            <p class="landing-desc">Leaving an impact on people’s lives
-                by building futuristic products to solve complex problems. Adding my two cents to the world.
-            </p>
-            <div class="resume-btn">
-                Resume
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logoform"><a href="https://knownavin.com">N A V I N </a><span>.</span></div>
+            <!-- <div class="nav-btns"><a href="#about">About</a>
+                <div class="blue-line"></div>
+            </div> -->
+            <!-- <div class="nav-btns"><a>Journey</a>
+                <div class="blue-line"></div>
+            </div> -->
+            <div class="nav-btns"><a href="https://theopine.substack.com" target="_blank">Blog</a>
+                <div class="blue-line"></div>
             </div>
+            <div class="nav-btns"><a href="#experience">Experience</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="nav-btns"><a href="#projects">Side Projects</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="nav-btns"><a href="#testimonials">Testimonials</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="nav-btns"><a href="#connect">Connect</a>
+                <div class="blue-line"></div>
+            </div>
+
         </div>
-        <div class="landing-content landing-img">
-            <img src="assets/navinbhaiya.png" />
+
+        <div class="sidepane">
+            <div class="sidebar"></div>
+            <a href="https://twitter.com/the_navin18"><img src="assets/twitter.png" /></a>
+            <a href="https://www.linkedin.com/in/navin1812/"><img src="assets/linkedin.png" /></a>
         </div>
-    </section>
-    <section>
-        <div class="tab-controller">
-            <div class="tab-pills">Now</div>
-            <div class="tab-pills">Past Experiences</div>
-        </div>
-        <div class="grid-view-experience">
-            <div class="rectangular-card upper-deck"><div>Imperial College Business School</div><div>MSc Economics & Strategy</div></div>
-            <div class="rectangular-card upper-deck"><div>MasterCard</div><div>Project offered by Imperial Consulting Group</div></div>
-            <div class="rectangular-card lower-deck"><div>Start Up Investment</div><div>Investing in budding start ups, to accelerate their growth.</div></div>
-            <div class="rectangular-card lower-deck"><div>President</div><div>Consulting Club, Imperial College Business School</div></div>
-        </div>
-        <!---
-        <div class="grid-view-experience">
-            <div class="rectangular-card lower-deck"><div>Start Up Investment</div><div>Investing in budding start ups, to accelerate their growth.</div></div>
-            <div class="rectangular-card lower-deck"><div>Start Up Investment</div><div>Investing in budding start ups, to accelerate their growth.</div></div>
-            <div class="rectangular-card lower-deck"><div>Start Up Investment</div><div>Investing in budding start ups, to accelerate their growth.</div></div>
-            <div class="rectangular-card lower-deck"><div>President</div><div>Consulting Club, Imperial College Business School</div></div>
-        </div> --->
-    </section>
-    <section>
-        <div class="tab-controller">
-            <div class="tab-pills">What I do Best</div>
-            <div class="tab-pills">Personal Interests</div>
-        </div>
-        <div class="grid-view-interests">
-            <div class="square-card"><img /><div class="interest-heading">Product Innovation</div><div class="interest-desc">The development of new products and the change in design of established products</div></div>
-            <div class="square-card"><img /><div class="interest-heading">Growth Strategy</div><div class="interest-desc">Growth strategy is a plan of action that allows you to achieve a higher level of share</div></div>
-            <div class="square-card"><img /><div class="interest-heading">Data Analysis and Visualisation</div><div class="interest-desc">Inspecting, cleansing, transforming and modeling data  with the goal of discovering information</div></div>
-            <div class="square-card"><img /><div class="interest-heading">Demand Generation</div><div class="interest-desc">Data-driven marketing strategy that creates awareness of and interest </div></div>
-            <div class="square-card"><img /><div class="interest-heading">Cross-functional team leadership</div><div class="interest-desc">Leading a  group consisting of people from different functional areas of the company </div></div>
-            <div class="square-card"><img /><div class="interest-heading">Financial Modeling</div><div class="interest-desc">Process of creating a summary of a company's expenses and earnings</div></div>
-        </div>
-    </section>
-    <section class="testimonial">
-        <div class="testimonial-heading">Numbers Don't Lie</div>
-        <div class="grey-area">
-            <div><div class="numbers">20+</div><div class="num-desc">Events Organized</div></div>
-            <div><div class="numbers">10+</div><div class="num-desc">Projects</div></div>
-            <div><div class="numbers">30+</div><div class="num-desc">Start Ups Consulted</div></div>
-        </div>
-        <div class="testimonial-heading">What others have to say</div>
-        <div class="statements">
-            <div class="statement-box">
-                <div class="statement-desc">
-                    Navin has always been a key member of the business development team & his good knowledge about business strategy has helped out startup to grow. I have been working with him for 2 years now and he has improved each day. I wish him success for the coming future.
+
+        <section class="landing" id="about">
+            <div class="landingbg">
+                <div class="bluepill"></div>
+            </div>
+            <div class="landing-content landing-text">
+                <p class="landing-headline">You know what <br><span>ticks</span> me?</p>
+                <p class="landing-desc">Leaving an impact on people’s lives
+                    by building futuristic products to solve complex problems. Adding my two cents to the world.
+                </p>
+                <div class="resume-btn">
+                    <a href="./assets/Final.pdf" download>Resume </a>
                 </div>
-                <div class="designation">
-                    <img />
-                    <div class="position">
-                        <span>Anubhav Mishra</span>
-                        <span>Founder/CEO at LegalMind</span>
+            </div>
+            <div class="landing-content landing-img">
+                <img src="assets/navin.png" />
+            </div>
+        </section>
+
+        <!-- <section>
+            <div class="tab-controller row">
+                <div class="tab-pills">The Journey</div>
+            </div>
+            <div class="grid-view-journey">
+                <hr class="journey">
+                <hr class="vl-right">
+                <hr class="journey">                
+                <hr class="vl-left">
+            </div>
+        </section> -->
+
+        <section id="experience">
+            <div class="tab-controller-center">
+                <div class="tab-pills"><a>Currently involved with...</a>
+                    <div class="blue-line-active"></div>
+                </div>
+                <!-- <div class="tab-pills">Past Experiences</div> -->
+            </div>
+            <div class="grid-view-experience">
+                <div class="rectangular-card upper-deck imperial-bg">
+                    <div>Imperial College Business School</div>
+                    <div>MSc Economics & Strategy</div>
+                </div>
+                <div class="rectangular-card upper-deck mastercard-bg">
+                    <div>Mastercard</div>
+                    <div>Project offered by Imperial Consulting Group</div>
+                </div>
+                <div class="rectangular-card lower-deck rectangular-card-border">
+                    <img src="./assets/Seedrs_Logo_Green_Black.png" />
+                    <div>Crowdfunding Investor</div>
+                    <div>Investing in budding startups</div>
+                </div>
+                <div class="rectangular-card lower-deck rectangular-card-border">
+                    <img src="./assets/consultingclub.png" />
+                    <div>President</div>
+                    <div>Consulting Club, Imperial College Business School</div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="testimonial-heading"><a>Previously worked with</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="empty-div"></div>
+            <div class="carousel-div">
+                <div id="recipeCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <!-- <div id="recipeCarousel" class="carousel slide"> -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/Spotify_Logo.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/tiger-global-logo.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/Uber_Logo.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/lightspeed.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/PhonePe.png" /></div>
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/CVC_Capital.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/paytm-Mall.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/jio.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/tencent-games.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/SnapDeal_logo.png" /></div>
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/Redseer-red.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/Steel_Authority_of_India_logo.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/ltgrouplogo-removebg-preview.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/reshape.png" /></div>
+                            <div class="col-3 float-left logos"><img class="img-fluid p-3 my-auto d-block" src="./assets/experience/lm_logo.png" /></div>
+                        </div>
+                    </div>
+                    <!-- <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="tab-controller-center">
+                <div class="tab-pills"><a>Side Projects</a>
+                    <div class="blue-line-active"></div>
+                </div>
+            </div>
+            <div class="grid-view-interests">
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front medelance-bg">
+                            <div class="interest-heading-project">Medelance</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">A medical delivery and patient transfer system created to improve healthcare conditions in rural areas</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front ideation-platform-bg">
+                            <div class="interest-heading-project">Ideation Platform</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Created a platform to bring startups, mentors and investors on the same arena and mentored 28 startups raise $6.5 million through Government of India backed incubator</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front vernacular-earpiece-bg">
+                            <div class="interest-heading-project">Vernacular Earpiece</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Designed a new product from scratch that could translate languages in real time</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front predictive-analysis-bg">
+                            <div class="interest-heading-project">Predictive Analysis</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Used excel, tableau and R to analyze district’s water quality index from the past and predicted future trends to present it to the government.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front financial-chatbot-bg">
+                            <div class="interest-heading-project">Financial Chatbot</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">A Fin-Tech personal bot to increase financial literacy in India</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front recruitment-platform-bg">
+                            <div class="interest-heading-project">Recruitment Platform</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Organized a fully virtual internship expo where 50+ startups gave 400+ internship opurtunities</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="statement-box">
-                <div class="statement-desc">
-                    I met Navin through Future City Summit event in Bali. Navin is a young man with an agile mind. He along with his team proposed a project called Bali Tech Innovation Center as a part of solutions in the hackathon we had at the event. Navin is an ambitious person with a lot of ideas worth exploring. 
+        </section>
+
+        <section>
+            <div class="tab-controller">
+                <div class="tab-pills" id="best"><a>What I do Best</a>
+                    <div class="blue-line-active" id="bestline"></div>
                 </div>
-                <div class="designation">
-                    <img />
-                    <div class="position">
-                        <span>Wahyu Taufiq</span>
-                        <span>Founding Partner, Dapura</span>
+                <div class="tab-pills graytext" id="interest"><a>Personal Interests</a>
+                    <div class="blue-line" id="interestline"></div>
+                </div>
+            </div>
+            <div class="grid-view-interests" id="bestgrid">
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/idea.png" />
+                            <div class="interest-heading">Product Innovation</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Worked on developing new USP product lineup to increase Serviceable Available Market</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/development.png" />
+                            <div class="interest-heading">Growth Strategy</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Consulted Indian e-commerce unicorn on monthly growth</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/laptop-screen.png" />
+                            <div class="interest-heading">Coding & Tools</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Python<br>R<br>SQL<br>Tableau<br>Excel<br>Photoshop<br>Illustrator </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/infographic.png" />
+                            <div class="interest-heading">Data Analysis and Visualization</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Created an optimization dashboard for world’s leading mobility company</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/network.png" />
+                            <div class="interest-heading">Cross-functional team leadership</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Led a team comprising of engineers from chemical, computer science and production background to create new functions for a legal startup </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/presentation.png" />
+                            <div class="interest-heading">Financial Modeling and Valuation</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Forecasted the future revenue generation of India’s leading unicorn in Ed-tech industry</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="statement-box">
-                <div class="statement-desc">
-                    Navin is a brilliant individual who has skillset that varies along different lines and can accommodate any kind of difficulty, he knows how to get things done in a smooth manner. The attitude of his towards work is going to take him to heights.
+            <div class="grid-view-interests d-none" id="interestgrid">
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/playing.png" />
+                            <div class="interest-heading">Card Tricks</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Mastered Thought Stealer and False Swing Cut</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="designation">
-                    <img />
-                    <div class="position">
-                        <span>Vinish Makkar</span>
-                        <span>Associate, PwC</span>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/motorbike.png" />
+                            <div class="interest-heading">Bike Rides</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">2400 kms and counting</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/cricket.png" />
+                            <div class="interest-heading">Cricket</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Premier league rank 6 out of 108 teams</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/Group.png" />
+                            <div class="interest-heading">Book Reading</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Hooked, The McKinsey Way, Freakonomics</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/goal.png" />
+                            <div class="interest-heading">Business Cases</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">UK’s leading fleet management</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/interest/headphones.png" />
+                            <div class="interest-heading">Music</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="interest-desc">Martin Garrix, James Blunt, Sonu Nigam</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <script type="text/javascript" src="index.js"></script>
-</body>
+        </section>
+
+        <section class="testimonial" id="testimonials">
+            <div class="testimonial-heading"><a>Numbers Don't Lie</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="grey-area">
+                <div>
+                    <div class="numbers">20+</div>
+                    <div class="num-desc">Events Organized</div>
+                </div>
+                <div>
+                    <div class="numbers">10+</div>
+                    <div class="num-desc">Projects</div>
+                </div>
+                <div>
+                    <div class="numbers">30+</div>
+                    <div class="num-desc">Startups Consulted</div>
+                </div>
+            </div>
+            <div class="testimonial-heading"><a>What others have to say</a>
+                <div class="blue-line"></div>
+            </div>
+            <div class="statements">
+                <div class="statement-box">
+                    <div class="statement-desc">
+                        Navin has always been a key member of the business development team & his good knowledge about business strategy has helped out startup to grow. I have been working with him for 2 years now and he has improved each
+                        day. I wish him success for the coming future.
+                    </div>
+                    <div class="designation">
+                        <img src="./assets/anubhav.png" />
+                        <div class="position">
+                            <span>Anubhav Mishra</span>
+                            <span>Founder/CEO at LegalMind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="statement-box">
+                    <div class="statement-desc">
+                        I met Navin through Future City Summit event in Bali. Navin is a young man with an agile mind. He along with his team proposed a project called Bali Tech Innovation Center as a part of solutions in the hackathon we
+                        had at the event. Navin is an ambitious person with a lot of ideas worth exploring.
+                    </div>
+                    <div class="designation">
+                        <img src="./assets/Wahyu.png" />
+                        <div class="position">
+                            <span>Wahyu Taufiq</span>
+                            <span>Founding Partner, Dapura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="statement-box">
+                    <div class="statement-desc">
+                        Navin is a brilliant individual who has skillset that varies along different lines and can accommodate any kind of difficulty, he knows how to get things done in a smooth manner. The attitude of his towards work is
+                        going to take him to heights.
+                    </div>
+                    <div class="designation">
+                        <img src="./assets/Vinish.png" />
+                        <div class="position">
+                            <span>Vinish Makkar</span>
+                            <span>Associate, PwC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="connect" id="connect">
+            <div class="connect-content connect-text">
+                <p class="connect-headline">He who has a "why" to live can bear almost any "how".</p>
+                <p class="connect-desc">Friedrich Nietzsche</p>
+                <div class="resume-btn">
+                    <a href="./assets/Final.pdf" download>Resume </a>
+                </div>
+                <div class="connect-mail">
+                    <img src="./assets/mail.png" />
+                    <a href="mailto:navin.dec18@gmail.com">navin.dec18@gmail.com</a>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+
 </html>
